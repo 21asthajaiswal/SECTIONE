@@ -1,0 +1,5 @@
+a = int(input('enyer the no.'))
+if(a>0):
+       print('enter no. is positive')
+else:
+    print('enter no. is negative')
