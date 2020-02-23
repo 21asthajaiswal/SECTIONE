@@ -1,0 +1,12 @@
+from itertools import permutations
+def largest(1):
+    lst = []
+    for i in permutation(1, len(1)):
+        
+        lst.append("".join(map(srt,i)))
+    return max(lst)
+ls=[]
+n=int(input('enter the no of element you have to enter'))
+for i in range(0,n) :
+    ls.append(int(input()))
+print(largest(ls))
