@@ -1,0 +1,7 @@
+#letter V 
+n=int(input())
+for j in range(0,n):
+    print(' '*j+'*',end='')
+    for k in range(j,(2*n)-j-1):
+        print(' ',end='')
+    print('*')
